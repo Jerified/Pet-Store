@@ -5,7 +5,6 @@ const Detail = () => {
     return (
         <section className="bg-darkcyan">
             <div className=" w-full py-[70px] container lg:px-[8rem] text-[1.38rem] text-antiquewhite lg:grid lg:grid-cols-2 flex flex-col gap-[5rem] lg:gap-[65px] items-center justify-center">
-                {/* <Image className="absolute top-[16.85rem] left-[0rem] w-[11.63rem] h-[3.56rem] overflow-hidden" alt="" src="Frame.svg" /> */}
                 <Image className=" w-[33.88rem]" alt="" src="/images/Union.png" width={300} height={300} quality={100} />
                 <div className="flex flex-col justify-center items-center text-center lg:items-start lg:justify-start lg:text-start">
                     <h3 className="text-[2.88rem] leading-[3.75rem] font-semibold">Making pet parenting easy for everyone</h3>
