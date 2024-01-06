@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+// import {hero-bg} from '/images/hero-bg.png'
 module.exports = {
   darkMode: ["class"],
   content: [
@@ -26,6 +27,9 @@ module.exports = {
         },
         screens: {
           'xl': '1125px'
+        },
+        backgroundImage : {
+            hero: "url('/images/hero-bg.png')"
         }
     },
   },

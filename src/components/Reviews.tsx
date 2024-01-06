@@ -13,7 +13,7 @@ const Reviews = () => {
                 </div> */}
                 <div className="ring-2 relative ring-darkslategray rounded-[36px] mx-auto h-fit w-fit">
                     <Image className=" rounded-[36px] w-[35.63rem] object-cover" alt="" src="/images/review1.png" width={300} height={300} quality={100} />
-                    <Image className="h-[3.35rem] w-[224px] absolute left-[30%] right-[50% bottom-[-1.65rem] " alt="" src="/images/paginate.png" width={300} height={300} />
+                    <Image className="h-[3.35rem] w-[224px] translate-x-1/2 right-[50%] translate-y- -translate-x-1/ mx-aut absolute bottom-[-1.65rem] " alt="" src="/images/paginate.png" width={300} height={300} />
                 </div>
             </div>
             <div className="relative">

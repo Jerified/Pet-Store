@@ -116,7 +116,7 @@ const Navbar = () => {
                         initial="initial"
                         animate="animate"
                         exit="exit"
-                        className="fixed z-50 left-0 top-0 w-full h-[100dvh] origin-top bg-orange-500 text-black p-10"
+                        className="fixed z-50 left-0 top-0 w-full min-h-[100vh] origin-top bg-orange-500 text-black p-10"
                     >
                         <div className="flex h-full flex-col">
                             <div className="flex justify-between">
@@ -133,7 +133,7 @@ const Navbar = () => {
                                 initial="initial"
                                 animate="open"
                                 exit="initial"
-                                className="flex flex-col h-full justify-center items-center gap-7 "
+                                className="flex flex-col h-[calc(100vh-196px)] justify-center items-center gap-7 "
                             >
                                 {navs.map((link, index) => {
                                     return (
